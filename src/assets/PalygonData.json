@@ -1,0 +1,478 @@
+[
+  {
+    "code": 1,
+    "status": "reserved",
+    "price": 12587,
+    "type": "Commercial",
+    "space_m2": "73"
+  },
+  {
+    "code": 2,
+    "status": "available",
+    "price": 50807,
+    "type": "Administrative",
+    "space_m2": "49"
+  },
+  {
+    "code": 3,
+    "status": "sold",
+    "price": 8976,
+    "type": "Administrative",
+    "space_m2": "47"
+  },
+  {
+    "code": 4,
+    "status": "available",
+    "price": 66046,
+    "type": "Commercial",
+    "space_m2": "79"
+  },
+  {
+    "code": 5,
+    "status": "reserved",
+    "price": 47704,
+    "type": "Commercial",
+    "space_m2": "49"
+  },
+  {
+    "code": 6,
+    "status": "sold",
+    "price": 39409,
+    "type": "Commercial",
+    "space_m2": "58"
+  },
+  {
+    "code": 7,
+    "status": "available",
+    "price": 58691,
+    "type": "Commercial",
+    "space_m2": "56"
+  },
+  {
+    "code": 8,
+    "status": "reserved",
+    "price": 39351,
+    "type": "Commercial",
+    "space_m2": "49"
+  },
+  {
+    "code": 9,
+    "status": "reserved",
+    "price": 42672,
+    "type": "Commercial",
+    "space_m2": "40"
+  },
+  {
+    "code": 10,
+    "status": "reserved",
+    "price": 76882,
+    "type": "Administrative",
+    "space_m2": "51"
+  },
+  {
+    "code": 11,
+    "status": "available",
+    "price": 88227,
+    "type": "Administrative",
+    "space_m2": "40"
+  },
+  {
+    "code": 12,
+    "status": "reserved",
+    "price": 42712,
+    "type": "Administrative",
+    "space_m2": "45"
+  },
+  {
+    "code": 13,
+    "status": "sold",
+    "price": 1335,
+    "type": "Administrative",
+    "space_m2": "28"
+  },
+  {
+    "code": 14,
+    "status": "sold",
+    "price": 23825,
+    "type": "Administrative",
+    "space_m2": "47"
+  },
+  {
+    "code": 15,
+    "status": "available",
+    "price": 99166,
+    "type": "Administrative",
+    "space_m2": "29"
+  },
+  {
+    "code": 16,
+    "status": "available",
+    "price": 99459,
+    "type": "Administrative",
+    "space_m2": "47"
+  },
+  {
+    "code": 17,
+    "status": "available",
+    "price": 99139,
+    "type": "Administrative",
+    "space_m2": "29"
+  },
+  {
+    "code": 18,
+    "status": "reserved",
+    "price": 25459,
+    "type": "Commercial",
+    "space_m2": "47"
+  },
+  {
+    "code": 19,
+    "status": "reserved",
+    "price": 8040,
+    "type": "Commercial",
+    "space_m2": "29"
+  },
+  {
+    "code": 20,
+    "status": "reserved",
+    "price": 16327,
+    "type": "Commercial",
+    "space_m2": "47"
+  },
+  {
+    "code": 21,
+    "status": "reserved",
+    "price": 9938,
+    "type": "Commercial",
+    "space_m2": "29"
+  },
+  {
+    "code": 22,
+    "status": "available",
+    "price": 59763,
+    "type": "Commercial",
+    "space_m2": "68"
+  },
+  {
+    "code": 23,
+    "status": "reserved",
+    "price": 12363,
+    "type": "Commercial",
+    "space_m2": "43"
+  },
+  {
+    "code": 24,
+    "status": "available",
+    "price": 8801,
+    "type": "Commercial",
+    "space_m2": "64"
+  },
+  {
+    "code": 25,
+    "status": "sold",
+    "price": 30896,
+    "type": "Administrative",
+    "space_m2": "77"
+  },
+  {
+    "code": 26,
+    "status": "reserved",
+    "price": 89250,
+    "type": "Administrative",
+    "space_m2": "75"
+  },
+  {
+    "code": 27,
+    "status": "reserved",
+    "price": 43072,
+    "type": "Administrative",
+    "space_m2": "79"
+  },
+  {
+    "code": 28,
+    "status": "available",
+    "price": 57437,
+    "type": "Administrative",
+    "space_m2": "75"
+  },
+  {
+    "code": 29,
+    "status": "available",
+    "price": 65683,
+    "type": "Commercial",
+    "space_m2": "43"
+  },
+  {
+    "code": 30,
+    "status": "reserved",
+    "price": 21172,
+    "type": "Commercial",
+    "space_m2": "40"
+  },
+  {
+    "code": 31,
+    "status": "reserved",
+    "price": 53078,
+    "type": "Administrative",
+    "space_m2": "43"
+  },
+  {
+    "code": 32,
+    "status": "reserved",
+    "price": 52223,
+    "type": "Administrative",
+    "space_m2": "57"
+  },
+  {
+    "code": 33,
+    "status": "available",
+    "price": 35946,
+    "type": "Administrative",
+    "space_m2": "34"
+  },
+  {
+    "code": 34,
+    "status": "sold",
+    "price": 88330,
+    "type": "Administrative",
+    "space_m2": "35"
+  },
+  {
+    "code": 35,
+    "status": "sold",
+    "price": 98773,
+    "type": "Commercial",
+    "space_m2": "36"
+  },
+  {
+    "code": 36,
+    "status": "reserved",
+    "price": 56407,
+    "type": "Commercial",
+    "space_m2": "42"
+  },
+  {
+    "code": 37,
+    "status": "sold",
+    "price": 75843,
+    "type": "Commercial",
+    "space_m2": "67"
+  },
+  {
+    "code": 38,
+    "status": "sold",
+    "price": 65034,
+    "type": "Administrative",
+    "space_m2": "60"
+  },
+  {
+    "code": 39,
+    "status": "available",
+    "price": 87896,
+    "type": "Administrative",
+    "space_m2": "69"
+  },
+  {
+    "code": 40,
+    "status": "reserved",
+    "price": 88749,
+    "type": "Administrative",
+    "space_m2": "40"
+  },
+  {
+    "code": 41,
+    "status": "reserved",
+    "price": 53056,
+    "type": "Commercial",
+    "space_m2": "39"
+  },
+  {
+    "code": 42,
+    "status": "reserved",
+    "price": 55025,
+    "type": "Administrative",
+    "space_m2": "58"
+  },
+  {
+    "code": 43,
+    "status": "reserved",
+    "price": 25644,
+    "type": "Administrative",
+    "space_m2": "52"
+  },
+  {
+    "code": 44,
+    "status": "sold",
+    "price": 11344,
+    "type": "Commercial",
+    "space_m2": "50"
+  },
+  {
+    "code": 45,
+    "status": "sold",
+    "price": 84002,
+    "type": "Administrative",
+    "space_m2": "45"
+  },
+  {
+    "code": 46,
+    "status": "sold",
+    "price": 149,
+    "type": "Administrative",
+    "space_m2": "49"
+  },
+  {
+    "code": 47,
+    "status": "reserved",
+    "price": 3571,
+    "type": "Commercial",
+    "space_m2": "48"
+  },
+  {
+    "code": 48,
+    "status": "reserved",
+    "price": 37750,
+    "type": "Administrative",
+    "space_m2": "46"
+  },
+  {
+    "code": 49,
+    "status": "reserved",
+    "price": 10398,
+    "type": "Administrative",
+    "space_m2": "49"
+  },
+  {
+    "code": 50,
+    "status": "reserved",
+    "price": 73905,
+    "type": "Administrative",
+    "space_m2": "49"
+  },
+  {
+    "code": 51,
+    "status": "sold",
+    "price": 6894,
+    "type": "Administrative",
+    "space_m2": "51"
+  },
+  {
+    "code": 52,
+    "status": "available",
+    "price": 19040,
+    "type": "Administrative",
+    "space_m2": "49"
+  },
+  {
+    "code": 53,
+    "status": "reserved",
+    "price": 96834,
+    "type": "Commercial",
+    "space_m2": "46"
+  },
+  {
+    "code": 54,
+    "status": "available",
+    "price": 10425,
+    "type": "Administrative",
+    "space_m2": "54"
+  },
+  {
+    "code": 55,
+    "status": "sold",
+    "price": 51066,
+    "type": "Administrative",
+    "space_m2": "102"
+  },
+  {
+    "code": 56,
+    "status": "reserved",
+    "price": 68663,
+    "type": "Administrative",
+    "space_m2": "51"
+  },
+  {
+    "code": 57,
+    "status": "available",
+    "price": 25303,
+    "type": "Administrative",
+    "space_m2": "44"
+  },
+  {
+    "code": 58,
+    "status": "reserved",
+    "price": 56502,
+    "type": "Administrative",
+    "space_m2": "77"
+  },
+  {
+    "code": 59,
+    "status": "available",
+    "price": 30208,
+    "type": "Commercial",
+    "space_m2": "73"
+  },
+  {
+    "code": 60,
+    "status": "reserved",
+    "price": 62428,
+    "type": "Administrative",
+    "space_m2": "75"
+  },
+  {
+    "code": 61,
+    "status": "reserved",
+    "price": 23245,
+    "type": "Administrative",
+    "space_m2": "79"
+  },
+  {
+    "code": 62,
+    "status": "sold",
+    "price": 88115,
+    "type": "Administrative",
+    "space_m2": "125"
+  },
+  {
+    "code": 63,
+    "status": "sold",
+    "price": 40252,
+    "type": "Administrative",
+    "space_m2": "47"
+  },
+  {
+    "code": 64,
+    "status": "sold",
+    "price": 53346,
+    "type": "Administrative",
+    "space_m2": "83"
+  },
+  {
+    "code": 65,
+    "status": "reserved",
+    "price": 55403,
+    "type": "Administrative",
+    "space_m2": "87"
+  },
+  {
+    "code": 66,
+    "status": "sold",
+    "price": 81115,
+    "type": "Administrative",
+    "space_m2": "107"
+  },
+  {
+    "code": 67,
+    "status": "sold",
+    "price": 10553,
+    "type": "Administrative",
+    "space_m2": "49"
+  },
+  {
+    "code": 68,
+    "status": "sold",
+    "price": 10449,
+    "type": "Administrative",
+    "space_m2": "48"
+  }
+]

@@ -18,6 +18,7 @@ function App() {
     Math.max(...PalygonData.map((d) => d.price)),
   ]);
   const [selectedStatus, setSelectedStatus] = useState<string | null>(null);
+  const [selectedTypes, setselectedTypes] = useState<string | null>(null);
   const [filteredPolygons, setFilteredPolygons] = useState<
     {
       code: number;
@@ -55,14 +56,21 @@ function App() {
         ? polygon.status === selectedStatus
         : true;
 
+      // Check if the polygon's type matches the selected type, or if no type is selected
+      const matchesType = selectedTypes ? polygon.type === selectedTypes : true;
+
       // Return true if both conditions are met, meaning the polygon should be included in the filtered data
-      return inPriceRange && matchesStatus;
+      return inPriceRange && matchesStatus && matchesType;
     });
 
     setFilteredPolygons(filteredData);
-  }, [priceRange, selectedStatus]);
+  }, [priceRange, selectedStatus, selectedTypes]);
   const handleStatusChange = (status) => {
     setSelectedStatus(status);
+  };
+
+  const handleTypeChange = (type) => {
+    setselectedTypes(type);
   };
 
   /**
@@ -85,6 +93,7 @@ function App() {
       <PolygonFiltering
         setPriceRange={setPriceRange}
         handleStatusChange={handleStatusChange}
+        handleTypeChange={handleTypeChange}
       />
       <FloatingInfo unit={hoveredPolygon} position={infoPosition} />
       <PolygonDataOnHover

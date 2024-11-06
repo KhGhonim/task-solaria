@@ -1,15 +1,18 @@
-import AvailabilityContent from "../AvailabilityBtns/AvailabilityBtns";
-import TypeContent from "../PriceSlider/PriceSlider";
+import PolygonsTypes from "../PolygonsTypes/PolygonsTypes";
+import AvailabilityBtns from "../AvailabilityBtns/AvailabilityBtns";
+import PriceSlider from "../PriceSlider/PriceSlider";
 import { useState } from "react";
 
-interface AvailabilityContentProps {
+interface AvailabilityBtnsProps {
   handleStatusChange: (status: string | null) => void;
   setPriceRange: (priceRange: number[]) => void;
+  handleTypeChange: (type: string | null) => void;
 }
 export default function FloatingModal({
   setPriceRange,
   handleStatusChange,
-}: AvailabilityContentProps) {
+  handleTypeChange,
+}: AvailabilityBtnsProps) {
   const [activeTab, setActiveTab] = useState("type");
 
   return (
@@ -46,9 +49,14 @@ export default function FloatingModal({
           </button>
         </div>
         {/* Content based on the active tab */}
-        {activeTab === "type" && <TypeContent setPriceRange={setPriceRange} />}
+        {activeTab === "type" && (
+          <div className="w-full flex flex-col space-y-2">
+            <PolygonsTypes handleTypeChange={handleTypeChange} />
+            <PriceSlider setPriceRange={setPriceRange} />{" "}
+          </div>
+        )}
         {activeTab === "availability" && (
-          <AvailabilityContent handleStatusChange={handleStatusChange} />
+          <AvailabilityBtns handleStatusChange={handleStatusChange} />
         )}
       </div>
     </div>

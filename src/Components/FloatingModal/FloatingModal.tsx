@@ -1,12 +1,12 @@
-import AvailabilityContent from "../../Components/AvailabilityContent/AvailabilityContent";
-import TypeContent from "../../Components/TypeContent/TypeContent";
+import AvailabilityContent from "../AvailabilityBtns/AvailabilityBtns";
+import TypeContent from "../PriceSlider/PriceSlider";
 import { useState } from "react";
 
 interface AvailabilityContentProps {
   handleStatusChange: (status: string | null) => void;
   setPriceRange: (priceRange: number[]) => void;
 }
-export default function PolygonFiltering({
+export default function FloatingModal({
   setPriceRange,
   handleStatusChange,
 }: AvailabilityContentProps) {

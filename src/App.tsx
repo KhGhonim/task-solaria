@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import FloatingInfo from "./Components/FloatingInfo/FloatingInfo";
-import PolygonFiltering from "./Components/PolygonFiltering/PolygonFiltering";
+import FloatingInfo from "./Components/FloatingInfoModal/FloatingInfoModal";
+import PolygonFiltering from "./Components/FloatingModal/FloatingModal";
 import image from "./assets/0-floor.png";
-import PolygonDataOnHover from "./Components/PolygonDataOnHover/PolygonDataOnHover";
+import PolygonDataOnHover from "./Components/Polygons/Polygons";
 import PalygonData from "./assets/PalygonData.json";
 import svgOverlay from "./assets/0-floor.svg";
 
@@ -28,10 +28,10 @@ function App() {
     }[]
   >(PalygonData);
   useEffect(() => {
-/**
- * Asynchronously fetches an SVG file from the specified overlay path
- * and updates the state with the fetched SVG data.
- */
+    /**
+     * Asynchronously fetches an SVG file from the specified overlay path
+     * and updates the state with the fetched SVG data.
+     */
     const fetchSvg = async () => {
       const response = await fetch(svgOverlay);
       const svg = await response.text();
@@ -40,9 +40,7 @@ function App() {
 
     fetchSvg();
   }, []);
-
   useEffect(() => {
-    
     /**
      * Filters the PalygonData based on the selected price range and status.
      * Returns only the polygons that match the criteria.
@@ -51,12 +49,12 @@ function App() {
       // Check if the polygon's price is within the selected price range
       const inPriceRange =
         polygon.price >= priceRange[0] && polygon.price <= priceRange[1];
-      
+
       // Check if the polygon's status matches the selected status, or if no status is selected
       const matchesStatus = selectedStatus
         ? polygon.status === selectedStatus
         : true;
-      
+
       // Return true if both conditions are met, meaning the polygon should be included in the filtered data
       return inPriceRange && matchesStatus;
     });
@@ -67,14 +65,14 @@ function App() {
     setSelectedStatus(status);
   };
 
-/**
- * Handles the hover event on a polygon, merging the polygon data
- * with matching data from PalygonData based on the polygon's data code.
- * Updates the hovered polygon state and information position.
- */
+  /**
+   * Handles the hover event on a polygon, merging the polygon data
+   * with matching data from PalygonData based on the polygon's data code.
+   * Updates the hovered polygon state and information position.
+   */
   const handleHover = (polygon, event) => {
     const matchingData = PalygonData.find(
-      (data) => data.code === parseInt(polygon.datacode) - 2
+      (data) => data.code === parseInt(polygon.datacode)
     );
     if (matchingData) {
       const mergedPolygon = { ...polygon, ...matchingData };

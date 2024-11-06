@@ -13,7 +13,7 @@ interface PolygonInfoProps {
  * The box includes details such as unit code, type, space, price, and status.
  * The position of the box on the page is determined by the provided coordinates.
  */
-export default function FloatingInfo({ unit, position }: PolygonInfoProps) {
+export default function FloatingInfoModal({ unit, position }: PolygonInfoProps) {
   return (
     <div
       style={{ top: `${position?.y}px`, left: `${position?.x}px` }}

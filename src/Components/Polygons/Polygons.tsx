@@ -12,7 +12,7 @@ interface ComponentProps {
   }[];
   svgData: string;
 }
-export default function PolygonDataOnHover({
+export default function Polygons({
   handleHover,
   setHoveredPolygon,
   filteredPolygons,
@@ -41,7 +41,7 @@ export default function PolygonDataOnHover({
         .map((polygon) => {
           const dataCode = polygon.getAttribute("data-code");
           const matchingData = filteredPolygons.find(
-            (fp) => fp.code === parseInt(dataCode, 10) - 2
+            (fp) => fp.code === parseInt(dataCode, 10)
           );
 
           if (matchingData) {

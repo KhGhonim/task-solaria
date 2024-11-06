@@ -1,7 +1,7 @@
 interface AvailabilityContentProps {
   handleStatusChange: (status: string | null) => void;
 }
-export default function AvailabilityContent({
+export default function AvailabilityBtns({
   handleStatusChange,
 }: AvailabilityContentProps) {
   return (

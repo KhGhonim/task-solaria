@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PalygonData from "../../assets/PalygonData.json";
 
-export default function TypeContent({ setPriceRange }) {
+export default function PriceSlider({ setPriceRange }) {
   const [localPriceRange, setLocalPriceRange] = useState([
     0,
     Math.max(...PalygonData.map((d) => d.price)),
